@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'brandon_grotesque';
+  src: url(fonts/Brandon_med.otf);
+}
+
+@font-face {
+  font-family: 'bodoni';
+  src: url(fonts/BodoniFLF-Roman.ttf);
+}
+
+html, body, header {
+  min-height: 100% !important;
+  height: 100%;
+}
+
+body {
+  background-color: #edf3ed;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+/* global */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* navbar */
+header {
+  float: left;
+  height: 100%;
+  width: 153px;
+  margin: 0 30px;
+}
+
+header #logo {
+  color: #002658;
+  font-family: brandon_grotesque;
+  margin: 0;
+  padding: 0;
+}
+
+header nav {
+  margin: 0;
+}
+
+header li {
+  display: block;
+  font-family: brandon_grotesque;
+  padding: 5px 0;
+  text-transform: uppercase;
+}
+
+header li span {
+  cursor: pointer;
+}
+
+header li span:hover, header a:hover {
+  color: #d0b33a;
+  text-decoration: none;
+}
+
+header a {
+  color: #002658;
+  text-decoration: none;
+}
+
+header .dropdown {
+  padding: 0 10px;
+  display: none;
+}
+
+.dropdown li{
+  color: #002658;
+  font-family: bodoni;
+}
+
+/* gallery */
+
+.gallery {
+  float: left;
+  width: 300px;
+  margin: 10px;
+}
+
+.gallery .photo-col {
+  float: left;
+
+  /*width: 33.33%;*/
+}
+
+.gallery > .photo-col img {
+  margin: 10px 0 10px 0;
+  height: auto;
+  width: 100%;
+}
