@@ -14,7 +14,10 @@ html, body, header {
 }
 
 body {
-  background-color: #edf3ed;
+  background-image: url("../img/home.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 25%;
   margin: 0;
   padding: 0;
   font-size: 16px;
